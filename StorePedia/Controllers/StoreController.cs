@@ -17,7 +17,7 @@ namespace StorePedia.Controllers
             StoreOwner objStoreOwner = new StoreOwner();
             storeMasterRepository.InsertStoreMaster(StoreMaster);
             return "1";
-        }
+        } 
 
         [HttpPost]
         public dynamic UpdateStoreOwner(StoreMaster StoreMaster)
