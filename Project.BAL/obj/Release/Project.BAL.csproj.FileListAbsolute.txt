@@ -1,0 +1,9 @@
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\Project.BAL.dll.config
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\Project.BAL.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\Project.BAL.pdb
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.SqlServer.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.xml
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.SqlServer.xml
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\obj\Release\Project.BAL.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.BAL\obj\Release\Project.BAL.pdb

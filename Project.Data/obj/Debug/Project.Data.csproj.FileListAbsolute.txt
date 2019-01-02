@@ -1,0 +1,5 @@
+G:\Project\ASP\StorePedia\StorePedia\Project.Data\bin\Debug\Project.Data.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.Data\bin\Debug\Project.Data.pdb
+G:\Project\ASP\StorePedia\StorePedia\Project.Data\obj\Debug\Project.Data.csprojResolveAssemblyReference.cache
+G:\Project\ASP\StorePedia\StorePedia\Project.Data\obj\Debug\Project.Data.dll
+G:\Project\ASP\StorePedia\StorePedia\Project.Data\obj\Debug\Project.Data.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePedia", "StorePedia\StorePedia.csproj", "{48971427-6EC1-42A5-A432-E8624393DB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.DAL", "Project.DAL\Project.DAL.csproj", "{13A0E778-659B-4EB3-A5D1-F5B91A2D6BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.BAL", "Project.BAL\Project.BAL.csproj", "{EF72668B-83B2-490F-A970-86C5D4DCD27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48971427-6EC1-42A5-A432-E8624393DB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48971427-6EC1-42A5-A432-E8624393DB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48971427-6EC1-42A5-A432-E8624393DB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48971427-6EC1-42A5-A432-E8624393DB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A0E778-659B-4EB3-A5D1-F5B91A2D6BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A0E778-659B-4EB3-A5D1-F5B91A2D6BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A0E778-659B-4EB3-A5D1-F5B91A2D6BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A0E778-659B-4EB3-A5D1-F5B91A2D6BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF72668B-83B2-490F-A970-86C5D4DCD27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF72668B-83B2-490F-A970-86C5D4DCD27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF72668B-83B2-490F-A970-86C5D4DCD27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF72668B-83B2-490F-A970-86C5D4DCD27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
