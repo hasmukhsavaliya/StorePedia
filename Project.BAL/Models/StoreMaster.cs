@@ -24,12 +24,14 @@ namespace Project.BAL.Models
         public string SubCategory { get; set; }
         public string Business { get; set; }
         public string Policies { get; set; }
-        public int PaymentType { get; set; }
+        public string PaymentType { get; set; }
         public Nullable<DateTime> CreatedOn { get; set; }
         public Nullable<DateTime> UpdateOn { get; set; }
         public bool Status { get; set; }
         public bool IsDeleted { get; set; }
         public int CreatedBy { get; set; }
         public int UpdatedBy { get; set; }
+        public int OwnerId { get; set; }
+         
     }
 }

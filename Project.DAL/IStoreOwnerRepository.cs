@@ -9,9 +9,9 @@ namespace Project.DAL
 {
     public interface IStoreOwnerRepository:IDisposable
     {
-        void InsertStoreOwner(StoreOwner objStoreOwner);
+        int InsertStoreOwner(StoreOwner objStoreOwner);
 
-        void UpdateStoreOwner(StoreOwner objStoreOwnerUsers);
+        int UpdateStoreOwner(StoreOwner objStoreOwnerUsers);
 
         StoreOwner StoreOwnerLogin(string MobileNo, string Password);
 

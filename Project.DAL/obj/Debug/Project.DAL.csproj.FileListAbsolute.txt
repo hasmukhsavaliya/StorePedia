@@ -10,15 +10,3 @@ G:\Project\ASP\StorePedia\StorePedia\Project.DAL\bin\Debug\EntityFramework.SqlSe
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.csprojResolveAssemblyReference.cache
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.dll
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.pdb
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\Project.DAL.dll.config
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\Project.DAL.dll
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\Project.DAL.pdb
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\EntityFramework.dll
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\EntityFramework.SqlServer.dll
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\Project.BAL.dll
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\Project.BAL.pdb
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\EntityFramework.xml
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\bin\Debug\EntityFramework.SqlServer.xml
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.csprojResolveAssemblyReference.cache
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.dll
-E:\Hardik\Projects\StorePedia\StorePedia\Project.DAL\obj\Debug\Project.DAL.pdb

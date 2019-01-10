@@ -21,23 +21,23 @@ namespace Project.DAL
             this.dbSet = context.Set<StoreOwner>();
         }
 
-        public void InsertStoreOwner(StoreOwner objStoreOwner)
+        public int InsertStoreOwner(StoreOwner objStoreOwner)
         {
             dbSet.Add(objStoreOwner);
-            context.SaveChanges();
+            return context.SaveChanges();
         }
 
-        public void UpdateStoreOwner(StoreOwner objStoreOwner)
+        public int UpdateStoreOwner(StoreOwner objStoreOwner)
         {
             try
             {
                 dbSet.Attach(objStoreOwner);
                 context.Entry(objStoreOwner).State = EntityState.Modified;
-                context.SaveChanges();
+                return context.SaveChanges();
             }
             catch (DbEntityValidationException ex)
             {
-
+                return 0;
             }            
         }
 
@@ -49,7 +49,7 @@ namespace Project.DAL
         }
         public StoreOwner StoreOwnerChangePassword(int OwnerId, string OwnerPassword, string NewPassword)
         {
-            return context.Database.SqlQuery<StoreOwner>("EXEC so_StoreOwner_Login @OwnerId,@OwnerPassword,",
+            return context.Database.SqlQuery<StoreOwner>("EXEC so_StoreOwner_ChangePassword @OwnerId,@OwnerPassword,@NewPassword",
                                                     new SqlParameter("@OwnerId", OwnerId),
                                                     new SqlParameter("@OwnerPassword", OwnerPassword),
                                                     new SqlParameter("@NewPassword", NewPassword)).SingleOrDefault();

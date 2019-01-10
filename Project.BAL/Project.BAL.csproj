@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Models\StoreMaster.cs" />
     <Compile Include="Models\StoreOwner.cs" />
+    <Compile Include="Models\TextBanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,14 +11,31 @@ namespace StorePedia
         {
             // Web API configuration and services
 
-            // Web API routes
-            config.MapHttpAttributeRoutes();
-
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+           name: "ControllerOnly",
+           routeTemplate: "api/{controller}"
+           );
+
+            // Controller with ID
+            config.Routes.MapHttpRoute(
+            name: "ControllerAndId",
+            routeTemplate: "api/{controller}/{id}",
+            defaults: null,
+            constraints: new { id = @"^\d+$" } // Only integers
             );
+
+            // Controllers with Actions
+            config.Routes.MapHttpRoute(
+            name: "ControllerAndAction",
+            routeTemplate: "api/{controller}/{action}"
+            );
+
+
+            //var json = config.Formatters.JsonFormatter;
+            //json.SerializerSettings.PreserveReferencesHandling =
+            //Newtonsoft.Json.PreserveReferencesHandling.None;
+
+            //config.Formatters.Remove(config.Formatters.XmlFormatter);
         }
     }
 }

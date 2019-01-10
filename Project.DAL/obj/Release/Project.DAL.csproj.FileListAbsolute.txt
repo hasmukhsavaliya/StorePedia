@@ -10,3 +10,15 @@ G:\Project\ASP\StorePedia\StorePedia\Project.DAL\bin\Release\EntityFramework.Sql
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Release\Project.DAL.csprojResolveAssemblyReference.cache
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Release\Project.DAL.dll
 G:\Project\ASP\StorePedia\StorePedia\Project.DAL\obj\Release\Project.DAL.pdb
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\Project.DAL.dll.config
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\Project.DAL.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\Project.DAL.pdb
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\EntityFramework.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\Project.BAL.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\Project.BAL.pdb
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\EntityFramework.xml
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\obj\Release\Project.DAL.csprojResolveAssemblyReference.cache
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\obj\Release\Project.DAL.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.DAL\obj\Release\Project.DAL.pdb

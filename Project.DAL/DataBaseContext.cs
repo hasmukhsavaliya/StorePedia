@@ -16,5 +16,7 @@ namespace Project.DAL
 
         }
         public DbSet<StoreOwner> StoreOwner { get; set; }
+        public DbSet<StoreMaster> StoreMaster { get; set; }
+        public DbSet<TextBanner> TextBanner { get; set; }
     }
 }

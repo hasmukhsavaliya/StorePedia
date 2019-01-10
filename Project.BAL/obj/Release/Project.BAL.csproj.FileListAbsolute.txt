@@ -7,3 +7,12 @@ G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.xml
 G:\Project\ASP\StorePedia\StorePedia\Project.BAL\bin\Release\EntityFramework.SqlServer.xml
 G:\Project\ASP\StorePedia\StorePedia\Project.BAL\obj\Release\Project.BAL.dll
 G:\Project\ASP\StorePedia\StorePedia\Project.BAL\obj\Release\Project.BAL.pdb
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\Project.BAL.dll.config
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\Project.BAL.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\Project.BAL.pdb
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\EntityFramework.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\EntityFramework.xml
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\obj\Release\Project.BAL.dll
+C:\Users\RadheShyam\Desktop\StorePedia\Project.BAL\obj\Release\Project.BAL.pdb

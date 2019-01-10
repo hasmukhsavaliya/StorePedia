@@ -9,40 +9,47 @@ using System.Threading.Tasks;
 
 namespace Project.DAL
 {
-    public class StoreMasterRepository : IStoreMasterRepository
+    public class StoreMasterRepository : IStoreMasterRepository, IDisposable
     {
         private DataBaseContext context;
         internal DbSet<StoreMaster> dbSet;
 
         public StoreMasterRepository(DataBaseContext context)
         {
-            this.context = context;
+            this.context = context;            
             this.dbSet = context.Set<StoreMaster>();
         }
 
-        public void InsertStoreMaster(StoreMaster objStoreMaster)
+        public int RegisterStore(StoreMaster objStoreMaster)
         {
             dbSet.Add(objStoreMaster);
-            context.SaveChanges();
+            return context.SaveChanges();
         }
 
-        public void UpdateStoreMaster(StoreMaster objStoreMaster)
+        public int UpdateStoreMaster(StoreMaster objStoreMaster)
         {
             try
             {
                 dbSet.Attach(objStoreMaster);
                 context.Entry(objStoreMaster).State = EntityState.Modified;
-                context.SaveChanges();
+                return context.SaveChanges();
             }
             catch (DbEntityValidationException ex)
             {
-
+                return 0;
             }            
         }
 
-        public StoreMaster GetStoreMasterDetailById(int OwnerId)
+        public StoreMaster GetStoreDetailById(int StorerId)
         {
-            return dbSet.Find(OwnerId);
+            return dbSet.Find(StorerId);
+        }
+
+
+        public List<StoreMaster> GetAllStoreByOwnerId(int OwnerId)
+        {
+            IQueryable<StoreMaster> query = dbSet.Where(m=>m.OwnerId == OwnerId);
+            return query.ToList();
         }
 
         public List<StoreMaster> GetAllStoreMaster()
@@ -53,7 +60,8 @@ namespace Project.DAL
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            this.context.Dispose();
+            //throw new NotImplementedException();
         }
     }
 }

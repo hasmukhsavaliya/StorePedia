@@ -9,15 +9,17 @@ using System.Web.Mvc;
 namespace StorePedia.Controllers
 {
     public class BaseController : ApiController
-    {
+    {   
         //
         public IStoreOwnerRepository storeOwnerRepository;
         public IStoreMasterRepository storeMasterRepository;
+        public ITextBannerRepository textBannerRepository;
 
         public BaseController()
         {
             this.storeOwnerRepository = new StoreOwnerRepository(new DataBaseContext());
             this.storeMasterRepository = new StoreMasterRepository(new DataBaseContext());
+            this.textBannerRepository = new TextBannerRepository(new DataBaseContext());
         }
     }
 }

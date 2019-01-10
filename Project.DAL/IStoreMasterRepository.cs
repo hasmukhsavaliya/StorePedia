@@ -9,12 +9,13 @@ namespace Project.DAL
 {
    public interface IStoreMasterRepository
     {
-        void InsertStoreMaster(StoreMaster objStoreMaster);
+       int RegisterStore(StoreMaster objStoreMaster);
 
-        void UpdateStoreMaster(StoreMaster objStoreMasterUsers);
+        int UpdateStoreMaster(StoreMaster objStoreMasterUsers);
 
-        StoreMaster GetStoreMasterDetailById(int StoreId);
+        StoreMaster GetStoreDetailById(int StoreId);
 
+        List<StoreMaster> GetAllStoreByOwnerId(int OwnerId);
         List<StoreMaster> GetAllStoreMaster();
     }
 }
